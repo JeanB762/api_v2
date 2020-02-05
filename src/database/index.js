@@ -1,6 +1,6 @@
-git const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/noderest', {useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost/api', {useNewUrlParser: true, useUnifiedTopology: true });
 
 mongoose.Promise = global.Promise;
 
