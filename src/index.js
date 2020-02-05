@@ -4,8 +4,7 @@ const app = express();
 
 
 
-require = require('./routes')(module)
-module.exports = require('./app.js')
+require = require('./routes');
 
 app.listen(3000);
 
